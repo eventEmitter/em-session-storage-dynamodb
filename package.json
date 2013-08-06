@@ -1,0 +1,24 @@
+{
+      "name":           "em-session-storage-dynamodb"
+    , "description":    "session storage middleware for ee-session-manager, persists session data @ aws dynamodb"
+    , "version":        "0.1.0"
+    , "homepage":       "https://github.com/eventEmitter/em-session-storage-dynamodb"
+    , "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "repository": {
+        "url":          "https://github.com/eventEmitter/em-session-storage-dynamodb"
+    }
+    , "engines": {
+        "node":         "*"
+    }
+    , "bugs": {
+        "url":          "https://github.com/eventEmitter/em-session-storage-dynamodb/issues"
+    }
+    , "dependencies": {
+          "ee-class":       "*"
+        , "ee-log":         "*"
+        , "ee-project":     "*"
+        , "aws-sdk":        "1.4.1"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+}
