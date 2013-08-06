@@ -1,0 +1,10 @@
+
+
+
+	module.exports = {
+		dynamoDB: {
+			  accessKeyId: 		""
+			, secretAccessKey: 	""
+			, region: 			"eu-west-1"
+		}
+	};
